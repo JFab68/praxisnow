@@ -1,0 +1,94 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Bolt.new specific (if applicable)
+.bolt/
+
+# Cache and temporary files
+.cache/
+.tmp/
+temp/
+*.tmp
+*.temp
+
+# Testing files
+coverage/
+jest/
+*.test.js
+*.spec.js
+*.test.jsx
+*.spec.jsx
+
+# System files
+Thumbs.db
+*.bak
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity File
+.yarn-integrity
+
+# macOS system files
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore lock files if using multiple package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Storybook output (if using Storybook)
+storybook-static/
+
+# Ignore Eslint and Prettier reports
+.eslintcache
+.prettiercache
+
+# IDE-specific files
+*.iml
+*.ipr
+*.iws
+*.class
+*.factorypath
+
+# Miscellaneous
+coverage/
+*.out
+*.log
+*.pid
+*.seed
+*.pid.lock
+
